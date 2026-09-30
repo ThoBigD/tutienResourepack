@@ -1,0 +1,187 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/zombie_spawn_egg"
+    },
+    "cases": [
+      {
+        "when": "tamthot",
+        "model": {
+          "type": "model",
+          "model": "item/tamthot"
+        }
+      },
+      {
+        "when": "bepnuong_macdinh",
+        "model": {
+          "type": "model",
+          "model": "item/bepnuong_macdinh"
+        }
+      },
+      {
+        "when": "bonruatay",
+        "model": {
+          "type": "model",
+          "model": "item/bonruatay"
+        }
+      },
+      {
+        "when": "noicom_long",
+        "model": {
+          "type": "model",
+          "model": "item/noicom_long"
+        }
+      },
+      {
+        "when": "noicom_full",
+        "model": {
+          "type": "model",
+          "model": "item/noicom_full"
+        }
+      },
+      {
+        "when": "thunggao",
+        "model": {
+          "type": "model",
+          "model": "item/thunggao"
+        }
+      },
+      {
+        "when": "thao",
+        "model": {
+          "type": "model",
+          "model": "item/thao"
+        }
+      },
+      {
+        "when": "thaonuoc",
+        "model": {
+          "type": "model",
+          "model": "item/thaonuoc"
+        }
+      },
+      {
+        "when": "hu_muoi",
+        "model": {
+          "type": "model",
+          "model": "item/hu_muoi"
+        }
+      },
+      {
+        "when": "tulanh",
+        "model": {
+          "type": "model",
+          "model": "item/tulanh"
+        }
+      },
+      {
+        "when": "thao_thituop_10",
+        "model": {
+          "type": "model",
+          "model": "item/thao_thituop_10"
+        }
+      },
+      {
+        "when": "thao_thituop_9",
+        "model": {
+          "type": "model",
+          "model": "item/thao_thituop_9"
+        }
+      },
+      {
+        "when": "thao_thituop_8",
+        "model": {
+          "type": "model",
+          "model": "item/thao_thituop_8"
+        }
+      },
+      {
+        "when": "thao_thituop_7",
+        "model": {
+          "type": "model",
+          "model": "item/thao_thituop_7"
+        }
+      },
+      {
+        "when": "thao_thituop_6",
+        "model": {
+          "type": "model",
+          "model": "item/thao_thituop_6"
+        }
+      },
+      {
+        "when": "thao_thituop_5",
+        "model": {
+          "type": "model",
+          "model": "item/thao_thituop_5"
+        }
+      },
+      {
+        "when": "thao_thituop_4",
+        "model": {
+          "type": "model",
+          "model": "item/thao_thituop_4"
+        }
+      },
+      {
+        "when": "thao_thituop_3",
+        "model": {
+          "type": "model",
+          "model": "item/thao_thituop_3"
+        }
+      },
+      {
+        "when": "thao_thituop_2",
+        "model": {
+          "type": "model",
+          "model": "item/thao_thituop_2"
+        }
+      },
+      {
+        "when": "thao_thituop_1",
+        "model": {
+          "type": "model",
+          "model": "item/thao_thituop_1"
+        }
+      },
+      {
+        "when": "thao_thituop_0",
+        "model": {
+          "type": "model",
+          "model": "item/thao_thituop_0"
+        }
+      },
+      {
+        "when": "thao_thituop",
+        "model": {
+          "type": "model",
+          "model": "item/thao_thituop"
+        }
+      },
+      {
+        "when": "bepgas_on",
+        "model": {
+          "type": "model",
+          "model": "item/bepgas_on"
+        }
+      },
+      {
+        "when": "dia_com",
+        "model": {
+          "type": "model",
+          "model": "item/dia_com"
+        }
+      },
+      {
+        "when": "bucthien_1",
+        "model": {
+          "type": "model",
+          "model": "item/bucthien_1"
+        }
+      }
+    ]
+  }
+}

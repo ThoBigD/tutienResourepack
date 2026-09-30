@@ -1,0 +1,138 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/carrot"
+    },
+    "cases": [
+      {
+        "when": "dualeo",
+        "model": {
+          "type": "model",
+          "model": "item/dualeo"
+        }
+      },
+      {
+        "when": "tamthot",
+        "model": {
+          "type": "model",
+          "model": "item/tamthot"
+        }
+      },
+      {
+        "when": "cachua",
+        "model": {
+          "type": "model",
+          "model": "item/cachua"
+        }
+      },
+      {
+        "when": "lat_dualeo",
+        "model": {
+          "type": "model",
+          "model": "item/lat_dualeo"
+        }
+      },
+      {
+        "when": "cucthit",
+        "model": {
+          "type": "model",
+          "model": "item/cucthit"
+        }
+      },
+      {
+        "when": "thit",
+        "model": {
+          "type": "model",
+          "model": "item/thit"
+        }
+      },
+      {
+        "when": "gung",
+        "model": {
+          "type": "model",
+          "model": "item/gung"
+        }
+      },
+      {
+        "when": "lat_gung",
+        "model": {
+          "type": "model",
+          "model": "item/lat_gung"
+        }
+      },
+      {
+        "when": "thit_khumui",
+        "model": {
+          "type": "model",
+          "model": "item/thit_khumui"
+        }
+      },
+      {
+        "when": "thitkhumui_dadap",
+        "model": {
+          "type": "model",
+          "model": "item/thitkhumui_dadap"
+        }
+      },
+      {
+        "when": "sa",
+        "model": {
+          "type": "model",
+          "model": "item/sa"
+        }
+      },
+      {
+        "when": "sabam",
+        "model": {
+          "type": "model",
+          "model": "item/sabam"
+        }
+      },
+      {
+        "when": "toi",
+        "model": {
+          "type": "model",
+          "model": "item/toi"
+        }
+      },
+      {
+        "when": "toibam",
+        "model": {
+          "type": "model",
+          "model": "item/toibam"
+        }
+      },
+      {
+        "when": "hanhtim",
+        "model": {
+          "type": "model",
+          "model": "item/hanhtim"
+        }
+      },
+      {
+        "when": "hanhtimbam",
+        "model": {
+          "type": "model",
+          "model": "item/hanhtimbam"
+        }
+      },
+      {
+        "when": "thit_dauop_ngon",
+        "model": {
+          "type": "model",
+          "model": "item/thit_dauop_ngon"
+        }
+      },
+      {
+        "when": "lat_cachua",
+        "model": {
+          "type": "model",
+          "model": "item/lat_cachua"
+        }
+      }
+    ]
+  }
+}

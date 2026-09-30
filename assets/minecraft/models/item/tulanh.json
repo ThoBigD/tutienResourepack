@@ -1,0 +1,45 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/noithat/tulanh",
+		"particle": "item/noithat/tulanh"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 2.125, 5.875], "texture": "#0"},
+				"east": {"uv": [4.125, 0, 6.25, 5.875], "texture": "#0"},
+				"south": {"uv": [4.125, 0, 6.25, 5.875], "texture": "#0"},
+				"west": {"uv": [4.125, 0, 6.25, 5.875], "texture": "#0"},
+				"up": {"uv": [3.875, 6, 6, 8], "texture": "#0"},
+				"down": {"uv": [8, 0, 10.125, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [72.25, 0, 0],
+			"translation": [-6.25, 8, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [63.75, 0, 0],
+			"translation": [-6.5, 8.25, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [3.75, 0, -9.75]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 0, -5.5]
+		},
+		"ground": {
+			"translation": [0, 5.5, 0]
+		},
+		"gui": {
+			"rotation": [0, 152, 9],
+			"scale": [0.88, 0.87, 0.87]
+		}
+	}
+}

@@ -1,0 +1,166 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/coal"
+    },
+    "cases": [
+      {
+        "when": "bonruatay",
+        "model": {
+          "type": "model",
+          "model": "item/bonruatay"
+        }
+      },
+      {
+        "when": "bepnuong_macdinh",
+        "model": {
+          "type": "model",
+          "model": "item/bepnuong_macdinh"
+        }
+      },
+      {
+        "when": "bepnuong_cothan",
+        "model": {
+          "type": "model",
+          "model": "item/bepnuong_cothan"
+        }
+      },
+      {
+        "when": "bepnuong_thanchay",
+        "model": {
+          "type": "model",
+          "model": "item/bepnuong_thanchay"
+        }
+      },
+      {
+        "when": "noicom_body",
+        "model": {
+          "type": "model",
+          "model": "item/noicom_body"
+        }
+      },
+      {
+        "when": "noicom_nap",
+        "model": {
+          "type": "model",
+          "model": "item/noicom_nap"
+        }
+      },
+      {
+        "when": "noicom_rice",
+        "model": {
+          "type": "model",
+          "model": "item/noicom_rice"
+        }
+      },
+      {
+        "when": "noicom_long",
+        "model": {
+          "type": "model",
+          "model": "item/noicom_long"
+        }
+      },
+      {
+        "when": "thunggao",
+        "model": {
+          "type": "model",
+          "model": "item/thunggao"
+        }
+      },
+      {
+        "when": "thunggao_9",
+        "model": {
+          "type": "model",
+          "model": "item/thunggao_9"
+        }
+      },
+      {
+        "when": "thunggao_8",
+        "model": {
+          "type": "model",
+          "model": "item/thunggao_8"
+        }
+      },
+      {
+        "when": "thunggao_7",
+        "model": {
+          "type": "model",
+          "model": "item/thunggao_7"
+        }
+      },
+      {
+        "when": "thunggao_6",
+        "model": {
+          "type": "model",
+          "model": "item/thunggao_6"
+        }
+      },
+      {
+        "when": "thunggao_5",
+        "model": {
+          "type": "model",
+          "model": "item/thunggao_5"
+        }
+      },
+      {
+        "when": "thunggao_4",
+        "model": {
+          "type": "model",
+          "model": "item/thunggao_4"
+        }
+      },
+      {
+        "when": "thunggao_3",
+        "model": {
+          "type": "model",
+          "model": "item/thunggao_3"
+        }
+      },
+      {
+        "when": "thunggao_2",
+        "model": {
+          "type": "model",
+          "model": "item/thunggao_2"
+        }
+      },
+      {
+        "when": "thunggao_1",
+        "model": {
+          "type": "model",
+          "model": "item/thunggao_1"
+        }
+      },
+      {
+        "when": "thunggao_0",
+        "model": {
+          "type": "model",
+          "model": "item/thunggao_0"
+        }
+      },
+      {
+        "when": "noicom_longcogao",
+        "model": {
+          "type": "model",
+          "model": "item/noicom_longcogao"
+        }
+      },
+      {
+        "when": "dia",
+        "model": {
+          "type": "model",
+          "model": "item/dia"
+        }
+      },
+      {
+        "when": "dia_com",
+        "model": {
+          "type": "model",
+          "model": "item/dia_com"
+        }
+      }
+    ]
+  }
+}

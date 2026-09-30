@@ -1,0 +1,75 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/honey_bottle"
+    },
+    "cases": [
+      {
+        "when": "nuocmam",
+        "model": {
+          "type": "model",
+          "model": "item/nuocmam"
+        }
+      },
+      {
+        "when": "nuoctuong",
+        "model": {
+          "type": "model",
+          "model": "item/nuoctuong"
+        }
+      },
+      {
+        "when": "dauhao",
+        "model": {
+          "type": "model",
+          "model": "item/dauhao"
+        }
+      },
+      {
+        "when": "matong",
+        "model": {
+          "type": "model",
+          "model": "item/matong"
+        }
+      },
+      {
+        "when": "tieuxay",
+        "model": {
+          "type": "model",
+          "model": "item/tieuxay"
+        }
+      },
+      {
+        "when": "suadac",
+        "model": {
+          "type": "model",
+          "model": "item/suadac"
+        }
+      },
+      {
+        "when": "daudieu",
+        "model": {
+          "type": "model",
+          "model": "item/daudieu"
+        }
+      },
+      {
+        "when": "dauan",
+        "model": {
+          "type": "model",
+          "model": "item/dauan"
+        }
+      },
+      {
+        "when": "nuocchanh",
+        "model": {
+          "type": "model",
+          "model": "item/nuocchanh"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "pack": {
+"pack_format": 56,
+    "supported_formats": [46, 75],
+    "min_format": 46,
+    "max_format": 75,
+        "description": "§e§l3D Model for Your Totem\n§r§7by Tixork"
+	}
+    }
+}

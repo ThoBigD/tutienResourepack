@@ -1,0 +1,52 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [194, 259],
+	"textures": {
+		"2": "item/egg",
+		"5": "item/traicay/trungchien",
+		"particle": "item/noithat/thao"
+	},
+	"elements": [
+		{
+			"from": [4, 1, 4],
+			"to": [12, 1, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 14, 1], "texture": "#2"},
+				"east": {"uv": [0, 0, 14, 1], "texture": "#2"},
+				"south": {"uv": [0, 0, 14, 1], "texture": "#2"},
+				"west": {"uv": [0, 0, 14, 1], "texture": "#2"},
+				"up": {"uv": [0.41237, 2.71815, 15.17526, 12.35521], "texture": "#5"},
+				"down": {"uv": [0.08247, 2.71815, 15.34021, 12.29344], "texture": "#5"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [66.5, 0, 0],
+			"translation": [-1.5, 5.75, 6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [59.5, 0, 0],
+			"translation": [0, 5.25, 5.5]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 9.25, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 9.5, 0]
+		},
+		"ground": {
+			"translation": [0, 3.75, 0]
+		},
+		"gui": {
+			"rotation": [42, 19, 0],
+			"translation": [0, 9, 0],
+			"scale": [1.51, 1.83, 1.87]
+		},
+		"fixed": {
+			"rotation": [-91, 0, 0],
+			"translation": [0, 0, -6.25]
+		}
+	}
+}

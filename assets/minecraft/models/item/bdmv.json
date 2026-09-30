@@ -1,0 +1,41 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/bdmv",
+		"particle": "item/bdmv"
+	},
+	"elements": [
+		{
+			"from": [3, 3, 8],
+			"to": [13, 13, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 78, 0],
+			"translation": [0, 4, -0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 82, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [3, 3, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [1.75, 3.5, 0]
+		},
+		"gui": {
+			"translation": [1.5, 0, 0],
+			"scale": [1.83, 1.78, 1]
+		}
+	}
+}

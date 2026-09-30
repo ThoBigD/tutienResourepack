@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/book"
+    },
+    "cases": [
+      {
+        "when": "bdmv",
+        "model": {
+          "type": "model",
+          "model": "item/bdmv"
+        }
+      },
+      {
+        "when": "lt_bt",
+        "model": {
+          "type": "model",
+          "model": "item/lt_bt"
+        }
+      }
+    ]
+  }
+}

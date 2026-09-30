@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/cooked_beef"
+    },
+    "cases": [
+      {
+        "when": "comsuong_cachua",
+        "model": {
+          "type": "model",
+          "model": "item/comsuong_cachua"
+        }
+      },
+      {
+        "when": "comsuong_dualeo",
+        "model": {
+          "type": "model",
+          "model": "item/comsuong_dualeo"
+        }
+      },
+      {
+        "when": "comsuong_thit",
+        "model": {
+          "type": "model",
+          "model": "item/comsuong_thit"
+        }
+      },
+      {
+        "when": "comsuong_nuocmam",
+        "model": {
+          "type": "model",
+          "model": "item/comsuong_nuocmam"
+        }
+      },
+      {
+        "when": "comsuong_full",
+        "model": {
+          "type": "model",
+          "model": "item/comsuong_full"
+        }
+      },
+      {
+        "when": "comsuong_trungchien",
+        "model": {
+          "type": "model",
+          "model": "item/comsuong_trungchien"
+        }
+      }
+    ]
+  }
+}

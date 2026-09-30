@@ -1,0 +1,91 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by sniffercraft34",
+	"texture_size": [32, 32],
+	"textures": {
+		"3": "item/giavi/lat_cachua",
+		"particle": "item/noithat/noicom3"
+	},
+	"elements": [
+		{
+			"from": [3, 0.75, 3],
+			"to": [7, 0.75, 7],
+			"rotation": {"angle": -15, "axis": "x", "origin": [4, 0.75, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.11321, 0], "texture": "#3"},
+				"east": {"uv": [0, 0, 2.11321, 0], "texture": "#3"},
+				"south": {"uv": [0, 0, 2.11321, 0], "texture": "#3"},
+				"west": {"uv": [0, 0, 2.11321, 0], "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		},
+		{
+			"from": [6, 1, 4],
+			"to": [10, 1, 8],
+			"rotation": {"angle": -10, "axis": "x", "origin": [7, 1, 5]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.11321, 0], "texture": "#3"},
+				"east": {"uv": [0, 0, 2.11321, 0], "texture": "#3"},
+				"south": {"uv": [0, 0, 2.11321, 0], "texture": "#3"},
+				"west": {"uv": [0, 0, 2.11321, 0], "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		},
+		{
+			"from": [8.5, 0.75, 3],
+			"to": [12.5, 0.75, 7],
+			"rotation": {"angle": -7.5, "axis": "x", "origin": [9.5, 0.75, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.11321, 0], "texture": "#3"},
+				"east": {"uv": [0, 0, 2.11321, 0], "texture": "#3"},
+				"south": {"uv": [0, 0, 2.11321, 0], "texture": "#3"},
+				"west": {"uv": [0, 0, 2.11321, 0], "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-105, 0, -180],
+			"translation": [-0.25, 4, 3.25],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-90, 0, -180],
+			"translation": [0, 3, 4.25],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 34, 8],
+			"translation": [0, 8.5, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 8.75, 0]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0]
+		},
+		"gui": {
+			"rotation": [30, 35, 0],
+			"translation": [0, 6, 0]
+		},
+		"head": {
+			"rotation": [0, 0, 1]
+		},
+		"fixed": {
+			"rotation": [-98, 0, 0],
+			"translation": [0, -0.75, -8.25]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [4, 1.5, 10],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by sniffercraft34",
+	"texture_size": [62, 83],
+	"textures": {
+		"6": "item/giavi/trungchien",
+		"particle": "item/noithat/noicom3"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 3],
+			"to": [14, 0, 11],
+			"rotation": {"angle": -10, "axis": "x", "origin": [2, -1, -1]},
+			"faces": {
+				"north": {"uv": [0, 0, 84.875, 8.09375], "texture": "#6"},
+				"east": {"uv": [0, 0, 84.875, 8.09375], "texture": "#6"},
+				"south": {"uv": [-68.875, 0, 16, 8.09375], "texture": "#6"},
+				"west": {"uv": [0, 1.92771, 16, 13.29857], "texture": "#6"},
+				"up": {"uv": [0, 1.92771, 16, 13.29857], "texture": "#6"},
+				"down": {"uv": [0, 1.92771, 16, 13.29857], "texture": "#6"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-105, 0, -180],
+			"translation": [-0.25, 4, 3.25],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-90, 0, -180],
+			"translation": [0, 3, 4.25],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 34, 8],
+			"translation": [0, 8.5, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 8.75, 0]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0]
+		},
+		"gui": {
+			"rotation": [30, 35, 0],
+			"translation": [0, 6, 0]
+		},
+		"head": {
+			"rotation": [0, 0, 1]
+		},
+		"fixed": {
+			"rotation": [-98, 0, 0],
+			"translation": [0, -0.75, -8.25]
+		}
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "item/traicay/cachua",
+		"particle": "item/traicay/cachua"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 0, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 4.22642, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 4.22642, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 4.22642, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 4.22642, 0], "texture": "#1"},
+				"up": {"uv": [0, 0, 16.22642, 16.03333], "texture": "#1"},
+				"down": {"uv": [0, 16.03333, 16.22642, 0], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-38, 12, 109],
+			"translation": [-8, -0.25, 4.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [145, 0, 0],
+			"translation": [0, -5.5, 5.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [87, 0, 0],
+			"translation": [16, -2.25, 5],
+			"scale": [2.14, 2.19, 1.94]
+		},
+		"firstperson_lefthand": {
+			"rotation": [77, 0, 0],
+			"translation": [0, 5.5, 9.75]
+		},
+		"ground": {
+			"translation": [0, 5.25, 0]
+		},
+		"gui": {
+			"rotation": [91, 0, 0],
+			"scale": [2.43, 1.69, 2.39]
+		},
+		"fixed": {
+			"rotation": [93, 0, 0],
+			"translation": [0, -1.25, 13.25],
+			"scale": [2.43, 1.69, 2.39]
+		}
+	}
+}

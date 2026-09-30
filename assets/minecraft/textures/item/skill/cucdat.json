@@ -1,0 +1,75 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [53, 90],
+	"textures": {
+		"0": "item/traicay/dualeo",
+		"particle": "item/traicay/dualeo"
+	},
+	"elements": [
+		{
+			"from": [8.79156, 3.50673, 7.01],
+			"to": [10.79156, 8.50673, 9],
+			"rotation": {"angle": 10, "axis": "z", "origin": [8.79156, 3.50673, 6.96]},
+			"faces": {
+				"north": {"uv": [4.30769, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [4.30769, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [4.30769, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [4.30769, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [4.30769, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [4.30769, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 0, 7],
+			"to": [9, 5, 9],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [4.30769, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [4.30769, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [4.30769, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [4.30769, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [4.30769, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [4.30769, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-1.25, 2, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [1.5, 2, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [8.75, 11, -9.75],
+			"scale": [2.14, 2.19, 1.94]
+		},
+		"firstperson_lefthand": {
+			"translation": [13.5, 10, -11.75],
+			"scale": [2.14, 2.19, 1.94]
+		},
+		"ground": {
+			"rotation": [0, 0, -81],
+			"translation": [3.75, -0.5, 0]
+		},
+		"gui": {
+			"rotation": [46, 15, -32],
+			"translation": [3.5, 5.75, 0],
+			"scale": [2.14, 2.19, 1.94]
+		},
+		"fixed": {
+			"rotation": [0, 0, -36.75],
+			"translation": [3.5, 9, 0],
+			"scale": [2.14, 2.14, 2.1]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [7, 0, 7],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

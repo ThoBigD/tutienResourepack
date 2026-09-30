@@ -1,0 +1,52 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "item/traicay/dao",
+		"particle": "item/traicay/dao"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 7],
+			"to": [12, 8, 7],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7, 5, 7]},
+			"faces": {
+				"north": {"uv": [0, 16.03333, 16.22642, 1], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 4.22642, 0], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [0, 1, 16.22642, 16.03333], "texture": "#1"},
+				"west": {"uv": [0, 0, 4.22642, 0], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [0, 0, 4.22642, 0], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [0, 0, 4.22642, 0], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [48.3, -6.41, 102.57],
+			"translation": [-8, 3.25, -1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [64.02, 8.23, -80.25],
+			"translation": [7.25, 4, 1.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -102, 83],
+			"translation": [-1.25, 7.75, -1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 99, -74],
+			"translation": [0, 7.5, -2.25]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0]
+		},
+		"gui": {
+			"translation": [1.75, 8.25, 0],
+			"scale": [1.94, 1.69, 2.21]
+		},
+		"fixed": {
+			"translation": [0, 11.5, 0],
+			"scale": [2.66, 2.32, 1]
+		}
+	}
+}

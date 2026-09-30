@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "block/dirt"
+    },
+    "cases": [
+      {
+        "when": "cucdat",
+        "model": {
+          "type": "model",
+          "model": "item/cucdat"
+        }
+      },
+      {
+        "when": "chem",
+        "model": {
+          "type": "model",
+          "model": "item/chem"
+        }
+      },
+      {
+        "when": "bucthien_1",
+        "model": {
+          "type": "model",
+          "model": "item/bucthien_1"
+        }
+      }
+    ]
+  }
+}

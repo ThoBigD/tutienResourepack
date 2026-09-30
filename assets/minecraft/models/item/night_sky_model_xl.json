@@ -1,0 +1,39 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made by Kaitouu",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/night_sky"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-43, -90, 0],
+			"translation": [0, 19.8, 3],
+			"scale": [3.4, 3.4, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45.25, 90, 0],
+			"translation": [0, 19.8, 2],
+			"scale": [3.4, 3.4, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 14, 1.13],
+			"scale": [3.23, 3.23, 2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 14, 1.13],
+			"scale": [3.23, 3.23, 2]
+		},
+		"gui": {
+			"rotation": [90, 44.5, -90],
+			"translation": [-4.75, -3.5, 9.75],
+			"scale": [1, 0.83, 1]
+		},
+		"fixed": {
+			"rotation": [90, 44.5, -90],
+			"translation": [-5, -4.5, 0]
+		}
+	}
+}

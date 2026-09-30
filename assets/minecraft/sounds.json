@@ -1,0 +1,20 @@
+{
+  "spear.lunge1": {
+    "category": "master",
+    "sounds": [
+      "spear/lunge1"
+    ]
+  },
+  "spear.lunge2": {
+    "category": "master",
+    "sounds": [
+      "spear/lunge2"
+    ]
+  },
+  "spear.lunge3": {
+    "category": "master",
+    "sounds": [
+      "spear/lunge3"
+    ]
+  }
+}
