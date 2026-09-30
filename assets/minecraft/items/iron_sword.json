@@ -1,24 +1,25 @@
 {
   "model": {
     "type": "select",
-    "property": "custom_model_data",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
     "fallback": {
       "type": "model",
-      "model": "item/iron_sword"
+      "model": "minecraft:item/iron_sword"
     },
     "cases": [
       {
         "when": "dao",
         "model": {
           "type": "model",
-          "model": "item/dao"
+          "model": "minecraft:item/dao"
         }
       },
       {
         "when": "caydamthit",
         "model": {
           "type": "model",
-          "model": "item/caydamthit"
+          "model": "minecraft:item/caydamthit"
         }
       }
     ]

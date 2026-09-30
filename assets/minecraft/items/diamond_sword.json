@@ -2,9 +2,19 @@
   "model": {
     "type": "select",
     "property": "minecraft:custom_model_data",
-    "fallback": { "type": "model", "model": "minecraft:item/diamond_sword" },
+    "index": 0,
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/diamond_sword"
+    },
     "cases": [
-      { "when": "longsword", "model": { "type": "model", "model": "minecraft:item/long_sword_model" } }
+      {
+        "when": "longsword",
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/long_sword_model"
+        }
+      }
     ]
   }
 }
