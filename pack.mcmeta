@@ -1,10 +1,12 @@
 {
-    "pack": {
-"pack_format": 56,
-    "supported_formats": [46, 75],
+	"pack": {
+		"pack_format": 56,
+		"supported_formats": [46, 99],
     "min_format": 46,
-    "max_format": 75,
-        "description": "§e§l3D Model for Your Totem\n§r§7by Tixork"
+    "max_format": 99,
+		"description": "Gay"
+	},
+	"meta": {
+		"game_version": "26.1.2"
 	}
-    }
 }
